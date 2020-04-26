@@ -19,7 +19,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.macro.mall</groupId>
+            <groupId>com.peng.mall</groupId>
             <artifactId>mall-common</artifactId>
         </dependency>
         <dependency>

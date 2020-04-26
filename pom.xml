@@ -86,7 +86,7 @@
       <dependency>
         <groupId>com.peng.mall</groupId>
         <artifactId>mall-common</artifactId>
-        <version>0.1</version>
+        <version>1.0</version>
       </dependency>
       <!--mall中MBG生成模块-->
       <dependency>
