@@ -5,6 +5,10 @@ spring:
     multipart:
       enabled: true #开启文件上传
       max-file-size: 10MB #限制文件上传大小为10M
+  security:
+    user:
+      name: admin
+      password: admin
 
 mybatis:
   mapper-locations:
@@ -44,6 +48,7 @@ secure:
       - /admin/info
       - /admin/logout
       - /minio/upload
+      - /product/**
 
 aliyun:
   oss:

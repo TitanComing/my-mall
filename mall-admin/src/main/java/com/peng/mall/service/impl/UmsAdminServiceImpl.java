@@ -43,7 +43,7 @@ import java.util.stream.Collectors;
  * Created by peng on 2018/4/26.
  */
 @Slf4j
-@Service
+//@Service
 public class UmsAdminServiceImpl implements UmsAdminService {
     @Autowired
     private JwtTokenUtil jwtTokenUtil;
