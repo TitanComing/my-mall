@@ -6,7 +6,7 @@ import io.swagger.annotations.ApiModelProperty;
 import java.util.List;
 
 /**
- * Created by macro on 2018/5/25.
+ * Created by peng on 2018/5/25.
  */
 public class PmsProductCategoryWithChildrenItem extends PmsProductCategory {
     @ApiModelProperty("子级分类")

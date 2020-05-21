@@ -2,6 +2,8 @@ package com.peng.mall.config;
 
 import com.peng.mall.model.UmsResource;
 import com.peng.mall.security.component.DynamicSecurityService;
+import com.peng.mall.service.UmsAdminService;
+import com.peng.mall.service.UmsResourceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,9 +20,9 @@ import java.util.concurrent.ConcurrentHashMap;
  * mall-security模块相关配置
  * Created by peng on 2020/5/3.
  */
-@Configuration
-@EnableWebSecurity
-@EnableGlobalMethodSecurity(prePostEnabled = true)
+//@Configuration
+//@EnableWebSecurity
+//@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class MallSecurityConfig {
     @Autowired
     private UmsAdminService adminService;
